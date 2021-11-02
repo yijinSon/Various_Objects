@@ -11,7 +11,7 @@ function draw() {
   fill(0);
   rect(150,150,100,100);
 
-  textSize (10);
+  textSize (15);
   textAlign (CENTER);
   fill(255);
   text('Hello World',width/2, height/2);
