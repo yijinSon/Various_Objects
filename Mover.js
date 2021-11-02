@@ -31,7 +31,7 @@ class Mover {
 
   drawOn(c){
     c.noStroke();
-    c.fill(0,0,0,20);
+    c.fill(random(0,255),0,100,20);
     c.circle(this.pos.x, this.pos.y, this.m);
   }
 }

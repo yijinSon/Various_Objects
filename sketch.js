@@ -6,7 +6,7 @@ function setup() {
   canvas = createGraphics(400,400);
 
   for (let i=0; i<5; i++){
-    let mover = new Mover(random(width), random(height), random(5,50));
+    let mover = new Mover(random(width), random(height), random(5,20));
     movers.push(mover);
   }
 }
@@ -28,6 +28,7 @@ function draw() {
 
   if (mouseIsPressed) {
     let mousePos = createVector (mouseX, mouseY);
+
     for (let mover of movers){
       mover.attractTo(mousePos);
     }
