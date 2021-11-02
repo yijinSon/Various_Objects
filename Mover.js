@@ -28,4 +28,10 @@ class Mover {
     fill(0);
     circle(this.pos.x, this.pos.y, this.m);
   }
+
+  drawOn(c){
+    c.noStroke();
+    c.fill(0,0,0,20);
+    c.circle(this.pos.x, this.pos.y, this.m);
+  }
 }
