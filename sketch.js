@@ -11,6 +11,7 @@ function draw() {
   m.show();
 
   if (mouseIsPressed) {
-    //make attract to mouse position
+    m.pos.x = mouseX;
+    m.pos.y = mouseY;
   }
 }
