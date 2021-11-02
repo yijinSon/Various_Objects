@@ -10,4 +10,9 @@ function draw() {
   rect(100,100,200,200);
   fill(0);
   rect(150,150,100,100);
+
+  textSize (10);
+  textAlign (CENTER);
+  fill(255);
+  text('Hello World',width/2, height/2);
 }
